@@ -1,0 +1,137 @@
+
+.maindiv{
+    display: block;
+    margin: auto;
+    padding: 15px;
+    max-width: 1440px;
+    min-width: 375px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Outfit", sans-serif;
+
+
+}
+
+.maindiv img {
+    width: 100%;
+    border-radius: 40px;
+}
+
+.mainheader{
+    font-family: "Young Serif", serif;
+    font-size: 40px;
+    font-weight: 200;
+    color: rgb(57, 57, 58);
+}
+
+.maindiv p {
+    font-family: "Young Serif", serif;
+    color: rgb(78, 78, 79);
+    margin-bottom: 25px;
+}
+
+.cookdetails{
+    padding: 10px 40px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    border-radius: 20px;
+    background-color: hsl(330, 100%, 96%);
+}
+
+.cookdetails h4 {
+    font-size: 20px;
+    margin-bottom: 0px;
+    color: hsl(332, 51%, 32%);
+}
+
+.cookdetails ul{
+    line-height: .75cm;
+    color:rgb(78, 78, 79); ;
+}
+
+.cookdetails ul li::marker{
+    color: hsl(332, 51%, 32%);
+}
+.cookdetails ul li{
+    padding-left: 1em;
+}
+
+.Ingredients h2{
+    font-family: "Young Serif", serif;
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 0px;
+    color: hsl(14, 45%, 36%)
+}
+
+.Ingredients ul{
+    line-height: 1cm;
+    color: rgb(78, 78, 79);
+}
+
+.Ingredients ul li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+.Ingredients ul li{
+    padding-left: 1em;
+}
+
+.Instructions h2{
+    font-family: "Young Serif", serif;
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 0px;
+    color: hsl(14, 45%, 36%)
+
+}
+
+.Instructions ol {
+    line-height: 1cm;
+    color: rgb(78, 78, 79);
+}
+
+.Instructions ol li::marker {
+    color: hsl(14, 45%, 36%)
+}
+
+.Instructions ol li {
+    padding-left: 1em;
+}
+
+.Nutrition h2 {
+    font-family: "Young Serif", serif;
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 0px;
+    color: hsl(14, 45%, 36%)
+}
+
+.Nutrition p{
+    font-family: "Outfit", sans-serif;
+}
+.table div{
+    width: 50%;
+    display: inline;
+    padding: 10px 40px;
+    font-family: "Outfit", sans-serif;
+    color: rgb(78, 78, 79);
+}
+
+.table div:nth-of-type(2){
+    color: hsl(14, 45%, 36%)
+}
+.table{
+    display: flex;
+    
+}
+
+
+.attribution{
+    font-family: "Young Serif", serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: azure;
+    padding: 10px;
+}
